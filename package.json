@@ -3,5 +3,10 @@
   "pageLoadTimeout": 30000,
   "devDependencies": {
     "cypress": "^5.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress": "cypress open",
+    "cypress:run": "cypress run --spec cypress/integration/mytests/**.js"
   }
 }
