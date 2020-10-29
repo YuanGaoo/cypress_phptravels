@@ -7,6 +7,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cypress": "cypress open",
-    "cypress:run": "cypress run --spec cypress/integration/mytests/**.js"
+    "cypress:run": "cypress run --spec cypress/integration/phptravelsTest/**.js"
   }
 }

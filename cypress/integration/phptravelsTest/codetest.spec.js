@@ -7,7 +7,6 @@ describe('lalala',()=>{
          var count = 0;
          var ch =''
          var max =0;
-         var ca =0
         for(var i = 0; i < name.length; i++){
             for(var j = 1; j < name.length; j ++){
                 if(name[i] == name[j]){
@@ -15,12 +14,12 @@ describe('lalala',()=>{
                 }
             
             } // 1 2
-            ca = count
-            count = 0
-            if(max < ca){
-                max = ca
+
+            if(max < count){
+                max = count
                 ch = name[i]
             }
+            count = 0
         }
         cy.log(ch+' - '+ max)
     })
